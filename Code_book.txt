@@ -1,0 +1,280 @@
+CODE BOOK
+
+All measures were normalized and bounded within [-1,1], so there is no measurement units.All measures are means of original measures.
+
+subject
+      integer
+      identify the subject who performed the activity. It ranges from 1 to 30
+
+activity
+      Factor w/ 6 levels
+      the activity performed. It may be "walking", "walking upstairs", "walking
+      downstairs", "sitting", "standing" and "laying"
+
+time_body_acceleration-mean-X
+      numeric
+      Mean of means body acceleration on X axis, time signal
+      
+time_body_acceleration-mean-Y
+      numeric
+      Mean of means body acceleration on Y axis, time signal
+      
+time_body_acceleration-mean-Z
+      numeric
+      Mean of means body acceleration on Z axis, time signal
+      
+time_gravity_acceleration-mean-X
+      numeric
+      Mean of means gravity acceleration on X axis, time signal
+      
+time_gravity_acceleration-mean-Y 
+      numeric
+      Mean of means gravity acceleration on y axis, time signal
+
+time_gravity_acceleration-mean-Z
+      numeric
+      Mean of means gravity acceleration on z axis, time signal
+
+time_body_acceleration_jerk-mean-X
+      numeric
+      Mean of means body jerk acceleration on X axis, time signal
+
+time_body_acceleration_jerk-mean-Y
+      numeric
+      Mean of means body jerk acceleration on Y axis, time signal
+
+time_body_acceleration_jerk-mean-Z    
+      numeric
+      Mean of means body jerk acceleration on Z axis, time signal
+
+time_body_angular_velocity-mean-X 
+      numeric
+      Mean of means body angular velocity on X axis, time signal
+
+time_body_angular_velocity-mean-Y
+      numeric
+      Mean of means body angular velocity on Y axis, time signal
+
+time_body_angular_velocity-mean-Z
+      numeric
+      Mean of means body angular velocity on Z axis, time signal
+
+time_body_angular_velocity_jerk-mean-X
+      numeric
+      Mean of means body jerk angular velocity on X axis, time signal
+
+time_body_angular_velocity_jerk-mean-Y
+      numeric
+      Mean of means body jerk angular velocity on Y axis, time signal
+
+time_body_angular_velocity_jerk-mean-Z
+      numeric
+      Mean of means body jerk angular velocity on Z axis, time signal
+
+time_body_acceleration_magnitude-mean
+      numeric
+      Mean of means body acceleration magnitude, time signal
+
+time_gravity_acceleration_magnitude-mean
+      numeric
+      Mean of means gravity acceleration magnitude, time signal
+
+time_body_acceleration_jerk_magnitude-mean
+      numeric
+      Mean of means body jerk acceleration magnitude, time signal
+
+time_body_angular_velocity_magnitude-mean
+      numeric
+      Mean of means body angular velocity magnitude, time signal
+
+time_body_angular_velocity_jerk_magnitude-mean
+      numeric
+      Mean of means body jerk angular veolcity magnitude, time signal
+
+frequency_body_acceleration-mean-X
+      numeric
+      Mean of means body acceleration on X axis, frequency signal
+
+frequency_body_acceleration-mean-Y
+      numeric
+      Mean of means body acceleration on Y axis, frequency signal
+
+frequency_body_acceleration-mean-Z
+      numeric
+      Mean of means body acceleration on Z axis, frequency signal
+
+frequency_body_acceleration_jerk-mean-X
+      numeric
+      Mean of means body jerk acceleration on X axis, frequency signal
+
+frequency_body_acceleration_jerk-mean-Y
+      numeric
+      Mean of means body jerk acceleration on Y axis, frequency signal
+
+frequency_body_acceleration_jerk-mean-Z
+      numeric
+      Mean of means body jerk acceleration on Z axis, frequency signal
+
+frequency_body_angular_velocity-mean-X
+      numeric
+      Mean of means body angular velocity on X axis, frequency signal
+
+frequency_body_angular_velocity-mean-Y
+      numeric
+      Mean of means body angular velocity on Y axis, frequency signal
+
+frequency_body_angular_velocity-mean-Z
+      numeric
+      Mean of means body angular velocity on Z axis, frequency signal
+
+frequency_body_acceleration_magnitude-mean 
+      numeric
+      Mean of means body acceleration magnitude, frequency signal
+
+frequency_body_acceleration_jerk_magnitude-mean
+      numeric
+      Mean of means body jerk acceleration magnitude, frequency signal
+
+frequency_body_angular_velocity_magnitude-mean
+      numeric
+      Mean of means body angular velocity magnitude, frequency signal
+
+frequency_body_angular_velocity_jerk_magnitude-mean
+      numeric
+      Mean of means body jerk angular veolcity magnitude, frequency signal
+
+time_body_acceleration-standard_deviation-X
+      numeric
+      Mean of standard deviations body acceleration on X axis, time signal
+      
+time_body_acceleration-standard_deviation-Y
+      numeric
+      Mean of standard deviations body acceleration on Y axis, time signal
+      
+time_body_acceleration-standard_deviation-Z
+      numeric
+      Mean of standard deviations body acceleration on Z axis, time signal
+      
+time_gravity_acceleration-standard_deviation-X
+      numeric
+      Mean of standard deviations gravity acceleration on X axis, time signal
+      
+time_gravity_acceleration-standard_deviation-Y 
+      numeric
+      Mean of standard deviations gravity acceleration on y axis, time signal
+
+time_gravity_acceleration-standard_deviation-Z
+      numeric
+      Mean of standard deviations gravity acceleration on z axis, time signal
+
+time_body_acceleration_jerk-standard_deviation-X
+      numeric
+      Mean of standard deviations body jerk acceleration on X axis, time signal
+
+time_body_acceleration_jerk-standard_deviation-Y
+      numeric
+      Mean of standard deviations body jerk acceleration on Y axis, time signal
+
+time_body_acceleration_jerk-standard_deviation-Z    
+      numeric
+      Mean of standard deviations body jerk acceleration on Z axis, time signal
+
+time_body_angular_velocity-standard_deviation-X 
+      numeric
+      Mean of standard deviations body angular velocity on X axis, time signal
+
+time_body_angular_velocity-standard_deviation-Y
+      numeric
+      Mean of standard deviations body angular velocity on Y axis, time signal
+
+time_body_angular_velocity-standard_deviation-Z
+      numeric
+      Mean of standard deviations body angular velocity on Z axis, time signal
+
+time_body_angular_velocity_jerk-standard_deviation-X
+      numeric
+      Mean of standard deviations body jerk angular velocity on X axis, time signal
+
+time_body_angular_velocity_jerk-standard_deviation-Y
+      numeric
+      Mean of standard deviations body jerk angular velocity on Y axis, time signal
+
+time_body_angular_velocity_jerk-standard_deviation-Z
+      numeric
+      Mean of standard deviations body jerk angular velocity on Z axis, time signal
+
+time_body_acceleration_magnitude-mean
+      numeric
+      Mean of standard deviations body acceleration magnitude, time signal
+
+time_gravity_acceleration_magnitude-mean
+      numeric
+      Mean of standard deviations gravity acceleration magnitude, time signal
+
+time_body_acceleration_jerk_magnitude-mean
+      numeric
+      Mean of standard deviations body jerk acceleration magnitude, time signal
+
+time_body_angular_velocity_magnitude-mean
+      numeric
+      Mean of standard deviations body angular velocity magnitude, time signal
+
+time_body_angular_velocity_jerk_magnitude-mean
+      numeric
+      Mean of standard deviations body jerk angular veolcity magnitude, time signal
+
+frequency_body_acceleration-standard_deviation-X
+      numeric
+      Mean of standard deviations body acceleration on X axis, frequency signal
+
+frequency_body_acceleration-standard_deviation-Y
+      numeric
+      Mean of standard deviations body acceleration on Y axis, frequency signal
+
+frequency_body_acceleration-standard_deviation-Z
+      numeric
+      Mean of standard deviations body acceleration on Z axis, frequency signal
+
+frequency_body_acceleration_jerk-standard_deviation-X
+      numeric
+      Mean of standard deviations body jerk acceleration on X axis, frequency
+      signal
+
+frequency_body_acceleration_jerk-standard_deviation-Y
+      numeric
+      Mean of standard deviations body jerk acceleration on Y axis, frequency signal
+
+frequency_body_acceleration_jerk-standard_deviation-Z
+      numeric
+      Mean of standard deviations body jerk acceleration on Z axis, frequency
+      signal
+
+frequency_body_angular_velocity-standard_deviation-X
+      numeric
+      Mean of standard deviations body angular velocity on X axis, frequency signal
+
+frequency_body_angular_velocity-standard_deviation-Y
+      numeric
+      Mean of standard deviations body angular velocity on Y axis, frequency signal
+
+frequency_body_angular_velocity-standard_deviation-Z
+      numeric
+      Mean of standard deviations body angular velocity on Z axis, frequency signal
+
+frequency_body_acceleration_magnitude-mean 
+      numeric
+      Mean of standard deviations body acceleration magnitude, frequency signal
+
+frequency_body_acceleration_jerk_magnitude-mean
+      numeric
+      Mean of standard deviations body jerk acceleration magnitude, frequency
+      signal
+
+frequency_body_angular_velocity_magnitude-mean
+      numeric
+      Mean of standard deviations body angular velocity magnitude, frequency signal
+
+frequency_body_angular_velocity_jerk_magnitude-mean
+      numeric
+      Mean of standard deviations body jerk angular veolcity magnitude, frequency
+      signal
